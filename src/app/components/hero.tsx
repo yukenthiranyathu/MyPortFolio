@@ -32,12 +32,12 @@ export default function Hero() {
           >
             View My Work
           </button>
-          <button
+          {/* <button
             // onClick={() => handleNavClick("contact")}
             className="border border-slate-600 hover:border-blue-500 text-slate-300 hover:text-blue-400 px-8 py-3 rounded-lg font-semibold transition-all"
           >
             Get In Touch
-          </button>
+          </button> */}
         </div>
         <div className="flex justify-center space-x-6">
           <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors" aria-label="GitHub">
