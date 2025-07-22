@@ -1,14 +1,15 @@
+'use client';
 export default function Hero() {
-  // const handleNavClick = (sectionId: string) => {
-  //   const section = document.getElementById(sectionId);
-  //   if (section) {
-  //     const offsetTop = section.offsetTop - 80;
-  //     window.scrollTo({
-  //       top: offsetTop,
-  //       behavior: "smooth"
-  //     });
-  //   }
-  // };
+  const handleNavClick = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const offsetTop = section.offsetTop - 80;
+      window.scrollTo({
+        top: offsetTop,
+        behavior: "smooth"
+      });
+    }
+  };
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8">
@@ -16,7 +17,7 @@ export default function Hero() {
         <div className="animate-float">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
             <span className="block text-slate-200 mb-2">{"Hi, I'm"}</span>
-            <span className="text-gradient animate-gradient bg-[length:200%_200%]">
+            <span className=" animate-gradient">
               Yukenthiran Yathu
             </span>
           </h1>
@@ -26,7 +27,7 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <button
-            // onClick={() => handleNavClick("projects")}
+             onClick={() => handleNavClick("projects")}
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg hover:shadow-blue-500/25"
           >
             View My Work

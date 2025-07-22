@@ -14,7 +14,7 @@ export default function Projects() {
       id: 2,
       title: "Task Management App",
       description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+      image: biriyaniOnly,
       technologies: ["Next.js", "Socket.io", "MongoDB"],
       techColors: ["bg-cyan-600", "bg-yellow-600", "bg-red-600"]
     },
@@ -22,7 +22,7 @@ export default function Projects() {
       id: 3,
       title: "Analytics Dashboard",
       description: "A comprehensive analytics dashboard with interactive charts, real-time data visualization, and customizable reporting features.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+      image: biriyaniOnly,
       technologies: ["Vue.js", "Python", "D3.js"],
       techColors: ["bg-indigo-600", "bg-orange-600", "bg-teal-600"]
     },
@@ -30,7 +30,7 @@ export default function Projects() {
       id: 4,
       title: "Social Media Platform",
       description: "A full-featured social media platform with user profiles, posts, messaging, and real-time notifications.",
-      image: "https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+      image: biriyaniOnly,
       technologies: ["React Native", "GraphQL", "Express"],
       techColors: ["bg-pink-600", "bg-blue-600", "bg-green-600"]
     },
@@ -38,7 +38,7 @@ export default function Projects() {
       id: 5,
       title: "Learning Management System",
       description: "An educational platform with course creation, student progress tracking, and interactive learning materials.",
-      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+      image: biriyaniOnly,
       technologies: ["Django", "React", "SQLite"],
       techColors: ["bg-emerald-600", "bg-blue-600", "bg-gray-600"]
     },
@@ -46,7 +46,7 @@ export default function Projects() {
       id: 6,
       title: "Weather Forecast App",
       description: "A responsive weather application with location-based forecasts, interactive maps, and weather alerts.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+      image: biriyaniOnly,
       technologies: ["Flutter", "Firebase", "API Integration"],
       techColors: ["bg-sky-600", "bg-orange-600", "bg-green-600"]
     }
@@ -70,6 +70,8 @@ export default function Projects() {
                 src={project.image} 
                 alt={project.title}
                 className="w-full h-48 object-cover"
+                width={500}
+                height={300}
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-slate-100 mb-3">{project.title}</h3>
@@ -88,9 +90,9 @@ export default function Projects() {
                   <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
                     <i className="fab fa-github"></i> Code
                   </a>
-                  <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+                  {/* <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
                     <i className="fas fa-external-link-alt"></i> Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
