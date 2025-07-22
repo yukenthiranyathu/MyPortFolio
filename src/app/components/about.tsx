@@ -34,13 +34,10 @@ export default function About() {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-slate-100">Full Stack Developer</h3>
             <p className="text-lg text-slate-300 leading-relaxed">
-              I'm a passionate full stack developer with expertise in modern web technologies. 
-              I love creating efficient, scalable, and user-friendly applications that solve real-world problems.
+              {"I'm a passionate full stack developer with expertise in modern web technologies.I love creating efficient, scalable, and user-friendly applications that solve real-world problems."}
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              With experience in both frontend and backend development, I bring ideas to life through 
-              clean code, innovative solutions, and attention to detail. I'm always eager to learn 
-              new technologies and take on challenging projects.
+              {"With experience in both frontend and backend development, I bring ideas to life through clean code, innovative solutions, and attention to detail. I'm always eager to learn new technologies and take on challenging projects."}
             </p>
             
             <div className="grid grid-cols-2 gap-6 mt-8">
@@ -58,7 +55,7 @@ export default function About() {
               // onClick={() => handleNavClick("contact")}
               className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg hover:shadow-blue-500/25"
             >
-              <span>Let's Work Together</span>
+              <span>{"Let's Work Together"}</span>
               <i className="fas fa-arrow-right ml-2"></i>
             </button>
           </div>

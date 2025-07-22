@@ -15,14 +15,14 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto text-center">
         <div className="animate-float">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
-            <span className="block text-slate-200 mb-2">Hi, I'm</span>
+            <span className="block text-slate-200 mb-2">{"Hi, I'm"}</span>
             <span className="text-gradient animate-gradient bg-[length:200%_200%]">
               Yukenthiran Yathu
             </span>
           </h1>
         </div>
         <p className="text-xl sm:text-2xl text-slate-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Full Stack Developer crafting digital experiences with modern technologies and innovative solutions
+          {"Full Stack Developer crafting digital experiences with modern technologies and innovative solutions"}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <button

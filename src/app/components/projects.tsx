@@ -1,4 +1,5 @@
 import biriyaniOnly from "../../../public/biriyaniOnly.png";
+import Image from "next/image";
 export default function Projects() {
   const projects = [
     {
@@ -65,7 +66,7 @@ export default function Projects() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div key={project.id} className="bg-slate-800 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-slate-700 hover:border-slate-600">
-              <img 
+              <Image 
                 src={project.image} 
                 alt={project.title}
                 className="w-full h-48 object-cover"
