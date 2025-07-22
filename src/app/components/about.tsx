@@ -1,17 +1,18 @@
 import profile from "../../../public/profile.png"
+import Image from "next/image"
 
 
 export default function About() {
-  const handleNavClick = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      const offsetTop = section.offsetTop - 80;
-      window.scrollTo({
-        top: offsetTop,
-        behavior: "smooth"
-      });
-    }
-  };
+  // const handleNavClick = (sectionId: string) => {
+  //   const section = document.getElementById(sectionId);
+  //   if (section) {
+  //     const offsetTop = section.offsetTop - 80;
+  //     window.scrollTo({
+  //       top: offsetTop,
+  //       behavior: "smooth"
+  //     });
+  //   }
+  // };
 
   return (
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800/50">
@@ -23,7 +24,7 @@ export default function About() {
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <img 
+            <Image 
               src={profile}
               alt="Professional developer portrait" 
               className="rounded-2xl shadow-2xl w-full max-w-md mx-auto lg:mx-0"
@@ -54,7 +55,7 @@ export default function About() {
             </div>
             
             <button
-              onClick={() => handleNavClick("contact")}
+              // onClick={() => handleNavClick("contact")}
               className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg hover:shadow-blue-500/25"
             >
               <span>Let's Work Together</span>
