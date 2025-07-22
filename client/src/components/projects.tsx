@@ -1,11 +1,12 @@
+import biriyaniOnly from "../../../public/biriyaniOnly.png";
 export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A modern e-commerce platform built with React, Node.js, and PostgreSQL featuring user authentication, payment processing, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
-      technologies: ["React", "Node.js", "PostgreSQL"],
+      title: "Food Ordering Website",
+      description: "This project is a full-featured e-commerce platform for ordering biriyani, built with Next.js, MongoDB, Firebase, Tailwind CSS, and Google Authentication for login/logout.",
+      image: biriyaniOnly,
+      technologies: ["React", "Node.js", "Firebase"],
       techColors: ["bg-blue-600", "bg-green-600", "bg-purple-600"]
     },
     {

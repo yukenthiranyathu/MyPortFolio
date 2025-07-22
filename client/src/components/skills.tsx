@@ -7,10 +7,9 @@ export default function Skills() {
       hoverColor: "hover:border-blue-500",
       skills: [
         "• React.js & Next.js",
-        "• Vue.js & Nuxt.js",
-        "• TypeScript",
-        "• Tailwind CSS",
-        "• Redux & Vuex"
+        "• HTML & CSS",
+        "• TypeScript & JavaScript",
+        "• Tailwind CSS , Bootstrap & StyleX",
       ]
     },
     {
@@ -20,10 +19,9 @@ export default function Skills() {
       hoverColor: "hover:border-green-500",
       skills: [
         "• Node.js & Express",
-        "• Python & Django",
-        "• PHP & Laravel",
+        "• Python",
+        "• PHP",
         "• REST & GraphQL APIs",
-        "• Microservices"
       ]
     },
     {
@@ -34,9 +32,8 @@ export default function Skills() {
       skills: [
         "• PostgreSQL & MySQL",
         "• MongoDB",
-        "• Redis",
         "• Firebase",
-        "• Prisma ORM"
+        "• Supabase",
       ]
     },
     {
@@ -45,11 +42,8 @@ export default function Skills() {
       color: "text-orange-400",
       hoverColor: "hover:border-orange-500",
       skills: [
-        "• Docker & Kubernetes",
-        "• AWS & Digital Ocean",
-        "• Git & GitHub Actions",
-        "• Jest & Cypress",
-        "• Linux & Bash"
+        "• Google Cloud Platform",
+        "• Git & GitHub Actions"
       ]
     }
   ];
@@ -60,13 +54,17 @@ export default function Skills() {
     { name: "Python", icon: "fab fa-python", color: "hover:bg-blue-600" },
     { name: "JavaScript", icon: "fab fa-js-square", color: "hover:bg-yellow-600" },
     { name: "TypeScript", icon: "", color: "hover:bg-blue-600" },
-    { name: "Vue.js", icon: "fab fa-vuejs", color: "hover:bg-green-600" },
     { name: "GraphQL", icon: "", color: "hover:bg-purple-600" },
     { name: "PostgreSQL", icon: "", color: "hover:bg-blue-600" },
     { name: "MongoDB", icon: "", color: "hover:bg-green-600" },
-    { name: "AWS", icon: "fab fa-aws", color: "hover:bg-orange-600" },
-    { name: "Docker", icon: "fab fa-docker", color: "hover:bg-blue-600" },
-    { name: "Redis", icon: "", color: "hover:bg-red-600" }
+    {name: "Firebase", icon: "", color: "hover:bg-orange-600"},
+    {name: "Supabase", icon: "", color: "hover:bg-orange-600"},
+    {name: "Google Cloud Platform", icon: "", color: "hover:bg-orange-600"},
+    {name: "Git", icon: "", color: "hover:bg-orange-600"},
+    {name: "GitHub Actions", icon: "", color: "hover:bg-orange-600"},
+    {name: "Tailwind CSS", icon: "", color: "hover:bg-blue-600"},
+    {name: "Bootstrap", icon: "", color: "hover:bg-purple-600"},
+    {name: "StyleX", icon: "", color: "hover:bg-orange-600"}
   ];
 
   return (

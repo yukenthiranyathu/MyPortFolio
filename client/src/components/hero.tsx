@@ -45,9 +45,6 @@ export default function Hero() {
           <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors" aria-label="LinkedIn">
             <i className="fab fa-linkedin text-2xl"></i>
           </a>
-          <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors" aria-label="Twitter">
-            <i className="fab fa-twitter text-2xl"></i>
-          </a>
           <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors" aria-label="Email">
             <i className="fas fa-envelope text-2xl"></i>
           </a>

@@ -1,3 +1,6 @@
+import profile from "../../../public/profile.png"
+
+
 export default function About() {
   const handleNavClick = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -21,7 +24,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600" 
+              src={profile}
               alt="Professional developer portrait" 
               className="rounded-2xl shadow-2xl w-full max-w-md mx-auto lg:mx-0"
             />

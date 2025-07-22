@@ -74,7 +74,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-slate-300 font-semibold">Email</div>
-                    <div className="text-slate-400">yukenthiran.yathu@email.com</div>
+                    <div className="text-slate-400">yukenyathu@gmail.com</div>
                   </div>
                 </div>
                 
@@ -84,7 +84,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-slate-300 font-semibold">Phone</div>
-                    <div className="text-slate-400">+1 (555) 123-4567</div>
+                    <div className="text-slate-400">+94 788648271</div>
                   </div>
                 </div>
                 
@@ -94,7 +94,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-slate-300 font-semibold">Location</div>
-                    <div className="text-slate-400">Toronto, Canada</div>
+                    <div className="text-slate-400">Srilanka , Batticaloa</div>
                   </div>
                 </div>
               </div>
@@ -107,9 +107,6 @@ export default function Contact() {
                   </a>
                   <a href="#" className="bg-slate-700 hover:bg-blue-600 p-3 rounded-lg transition-all">
                     <i className="fab fa-linkedin text-slate-300 hover:text-white"></i>
-                  </a>
-                  <a href="#" className="bg-slate-700 hover:bg-blue-600 p-3 rounded-lg transition-all">
-                    <i className="fab fa-twitter text-slate-300 hover:text-white"></i>
                   </a>
                   <a href="#" className="bg-slate-700 hover:bg-orange-600 p-3 rounded-lg transition-all">
                     <i className="fab fa-instagram text-slate-300 hover:text-white"></i>
