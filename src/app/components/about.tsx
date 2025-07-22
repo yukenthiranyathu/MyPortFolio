@@ -54,13 +54,13 @@ export default function About() {
               </div>
             </div>
             
-            <button
+            {/* <button
               //  onClick={() => handleNavClick("contact")}
               className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg hover:shadow-blue-500/25"
             >
               <span>{"Let's Work Together"}</span>
               <i className="fas fa-arrow-right ml-2"></i>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
